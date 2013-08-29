@@ -1,4 +1,4 @@
-Quick-Hull
+Anagrams
 ======================
 
-CS-203 Program 2
+CS-203 Program 3
