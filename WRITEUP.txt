@@ -1,0 +1,5 @@
+The approach I chose to take starts by sorting an input word's characters alphabetically by changing the string into a character array. Arrays.sort() runs in ologo time, where "o" is the length of the longest word in the file.
+
+The algorithm does this for all n words. Then the program tries to add the word to the key in the HashMap. In the worst case, this takes O(n) time since it uses .contains() from the ArrayList class.
+
+So.. overall this algorithm runs in O(n^2 * ologo) time in the worst case (where n is the number of words and o is the length of the longest word).
